@@ -1,0 +1,9 @@
+.root {
+  min-height: 300px;
+}
+.border {
+  border: 1px solid grey;
+}
+.d-flex {
+  display: flex;
+}
