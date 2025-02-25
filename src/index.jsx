@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/react'
 import * as ReactDOMClient from 'react-dom/client'
+import Component from './component'
 
 const styles = css`
   background-color: #d81616;
@@ -16,7 +17,7 @@ const Root = (props) => {
         style={{ height: 600, width: 800 }}
         className='border'
       >
-        Test
+        <Component />
       </div>
     </div>
   )
